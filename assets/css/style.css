@@ -4112,7 +4112,7 @@ hr {
     font-weight: bolder;
     margin-bottom: 15px;
     text-transform: capitalize;
-   
+    margin-left: -50px;
 }
 
 .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
@@ -4122,7 +4122,21 @@ hr {
     margin-bottom: 38px;
     font-weight: bolder;
     text-transform: uppercase;
-  
+    margin-left: -50px;
+}
+/* Desktop-responsive (large screens, 1200px and above) */
+@media (min-width: 1200px) {
+    .footer-area .footer-top .single-footer-caption .footer-tittle1 ul li {
+        font-size: 16px; /* Increase font size for better readability */
+        margin-left:-50px;   /* Remove negative margin for alignment */
+        margin-bottom: 20px; /* Increase bottom margin for spaciousness */
+    }
+
+    .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
+        font-size: 22px;  /* Larger heading for desktops */
+        margin-left: -50px;   /* Proper alignment */
+        margin-bottom: 40px; /* Increased space below the heading */
+    }
 }
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -4137,7 +4151,7 @@ hr {
         font-size: 18px; /* Slightly smaller heading size */
         margin-left: 0; /* Align properly for smaller screens */
         margin-bottom: 30px; /* Adjust the spacing */
-        margin-left: -50px;
+         margin-left: -50px;
     }
 }
 
