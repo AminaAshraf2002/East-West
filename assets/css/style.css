@@ -4128,13 +4128,13 @@ hr {
 @media (min-width: 1200px) {
     .footer-area .footer-top .single-footer-caption .footer-tittle1 ul li {
         font-size: 16px; /* Increase font size for better readability */
-        margin-left:-50px;   /* Remove negative margin for alignment */
+        margin-left:-100px;   /* Remove negative margin for alignment */
         margin-bottom: 20px; /* Increase bottom margin for spaciousness */
     }
 
     .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
         font-size: 22px;  /* Larger heading for desktops */
-        margin-left: -50px;   /* Proper alignment */
+        margin-left: -100px;   /* Proper alignment */
         margin-bottom: 40px; /* Increased space below the heading */
     }
 }
