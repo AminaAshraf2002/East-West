@@ -4112,7 +4112,7 @@ hr {
     font-weight: bolder;
     margin-bottom: 15px;
     text-transform: capitalize;
-    margin-left: -30px;
+    margin-left: -50px;
 }
 
 .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
@@ -4122,7 +4122,7 @@ hr {
     margin-bottom: 38px;
     font-weight: bolder;
     text-transform: uppercase;
-    margin-left: -30px;
+    margin-left: -50px;
 }
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -4130,12 +4130,14 @@ hr {
         font-size: 16px; /* Slightly smaller text */
         margin-left: 0; /* Remove negative margin for better alignment */
         margin-bottom: 10px; /* Adjust spacing */
+        margin-left: -50px;
     }
 
     .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
         font-size: 18px; /* Slightly smaller heading size */
         margin-left: 0; /* Align properly for smaller screens */
         margin-bottom: 30px; /* Adjust the spacing */
+        margin-left: -50px;
     }
 }
 
