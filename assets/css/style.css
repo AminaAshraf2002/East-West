@@ -4030,7 +4030,8 @@ hr {
 .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
     line-height: 1.8;
     margin-bottom: 35px;
-    color: white;
+    color: black;
+    font-weight: bolder;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4069,27 +4070,27 @@ hr {
 }
 
 .footer-area .footer-top .single-footer-caption .footer-number p {
-    color:  white
+    color:  black
 }
 
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
-    color: #fff;
+    color: #070303;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 45px;
-    font-weight: 500;
+    font-weight: bolder;
     text-transform: uppercase;
    
    
 }
 .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
-    color: #fff;
+    color: #0e0101;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 38px;
-    font-weight: 500;
+    font-weight: bolder;
     text-transform: uppercase;
-    margin-left: -60px;
+    margin-left: -5px;
    
 }
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li {
@@ -4103,7 +4104,7 @@ hr {
     font-weight: bolder;
     margin-bottom: 15px;
     text-transform: capitalize;
-    margin-left: -60px;
+    margin-left: -5px;
 }
 /* Default for larger screens */
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
@@ -4274,7 +4275,7 @@ hr {
 }
 
 .footer-area .footer-social a {
-    color: white;
+    color: black;
     font-size: 14px;
     padding-left: 25px
 }
@@ -4288,7 +4289,7 @@ hr {
 }
 
 .footer-area .footer-social a:hover {
-    color:  #1b1818
+    color: white
 }
 
 .footer-area .footer-social a:hover i {
