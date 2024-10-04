@@ -2472,13 +2472,34 @@ hr {
     }
 }
 
+/* Default Styles (Desktop - larger screens) */
 .section-bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed
+    background-size: cover; /* Background covers the whole section */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Background stays fixed when scrolling */
 }
 
+/* Tablet Screens (max-width: 1024px) */
+
+
+/* Mobile Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .section-bg {
+        background-size: cover; /* Ensure the entire image is visible */
+        background-attachment: scroll; /* Fixed background can cause issues on mobile */
+        background-position: center; /* Adjust position for better mobile view */
+    }
+}
+
+/* Very Small Mobile Screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .section-bg {
+        background-size: cover; /* Ensure background fits small screens */
+        background-position: center; /* Align the background to the top */
+        background-attachment: scroll; /* Always use scroll on small screens for better performance */
+    }
+}
 .white-bg {
     background: #ffffff
 }
@@ -4055,27 +4076,78 @@ hr {
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
+    margin-bottom: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+   
+   
+}
+.footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
     margin-bottom: 38px;
     font-weight: 500;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-left: -60px;
+   
 }
-
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li {
     color:  #1b1818;
     font-weight: bolder;
     margin-bottom: 15px;
     text-transform: capitalize
 }
-
+.footer-area .footer-top .single-footer-caption .footer-tittle1 ul li {
+    color:  #1b1818;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: -60px;
+}
+/* Default for larger screens */
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
     color: #1b1818;
     font-weight: bolder;
-    font-size: 15px
+    font-size: 15px;
+    transition: all 0.3s ease;
 }
 
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a:hover {
     color: #fff;
-    padding-left: 5px
+    padding-left: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive for tablets and small laptops (768px to 1024px) */
+@media (max-width: 1024px) {
+    .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
+        font-size: 14px; /* Slightly smaller font */
+    }
+}
+
+/* Responsive for mobile phones (up to 767px) */
+@media (max-width: 767px) {
+    .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
+        font-size: 13px; /* Smaller font for mobile */
+        padding-left: 0; /* Remove the padding for hover on small screens */
+    }
+
+    .footer-area .footer-top .single-footer-caption .footer-tittle ul li a:hover {
+        padding-left: 3px; /* Slightly less padding for hover */
+    }
+}
+
+/* Responsive for very small devices (up to 480px) */
+@media (max-width: 480px) {
+    .footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
+        font-size: 12px; /* Even smaller font for very small screens */
+        padding-left: 0;  /* Disable padding hover effect */
+    }
+
+    .footer-area .footer-top .single-footer-caption .footer-tittle ul li a:hover {
+        padding-left: 0; /* No padding hover on very small screens */
+    }
 }
 
 .footer-area .footer-top .single-footer-caption .footer-form {
