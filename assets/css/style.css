@@ -4112,7 +4112,7 @@ hr {
     font-weight: bolder;
     margin-bottom: 15px;
     text-transform: capitalize;
-    margin-left: -50px;
+   
 }
 
 .footer-area .footer-top .single-footer-caption .footer-tittle1 h4 {
@@ -4122,7 +4122,7 @@ hr {
     margin-bottom: 38px;
     font-weight: bolder;
     text-transform: uppercase;
-    margin-left: -50px;
+  
 }
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
